@@ -5,10 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
+    "build": "npx @11ty/eleventy",
+    "check": "npx prettier . --check",
+    "format": "npx prettier . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semanticdata/miguelpimentel.do.git"
+},
+  "keywords": ["eleventy", "11ty", "sass"],
+  "author": "Miguel Pimentel",
+  "homepage": "https://miguelpimentel.do",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
