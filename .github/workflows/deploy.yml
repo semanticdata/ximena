@@ -2,9 +2,9 @@ name: Deploy to GitHub Pages (npm)
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
