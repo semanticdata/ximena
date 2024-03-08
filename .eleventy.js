@@ -1,55 +1,55 @@
-const markdownIt = require("markdown-it");
-const eleventySass = require("eleventy-sass");
+const markdownIt = require('markdown-it');
+const eleventySass = require('eleventy-sass');
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.setServerPassthroughCopyBehavior('copy');
-  eleventyConfig.addPassthroughCopy('/public');
-  eleventyConfig.setQuietMode(true);
+    eleventyConfig.setServerPassthroughCopyBehavior('copy');
+    eleventyConfig.addPassthroughCopy('/public');
+    eleventyConfig.setQuietMode(true);
 
-  // Plugins
-  eleventyConfig.addPlugin(eleventySass);
+    // Plugins
+    eleventyConfig.addPlugin(eleventySass);
 
-  // Watch targets
-  // eleventyConfig.addWatchTarget('./src/assets/css/');
-  // eleventyConfig.addWatchTarget('./src/assets/js/');
-  eleventyConfig.addWatchTarget('./src/layouts/');
+    // Watch targets
+    // eleventyConfig.addWatchTarget('./src/assets/css/');
+    // eleventyConfig.addWatchTarget('./src/assets/js/');
+    eleventyConfig.addWatchTarget('./src/layouts/');
 
-  // Layout aliases
-  eleventyConfig.addLayoutAlias('base', 'base.njk');
+    // Layout aliases
+    eleventyConfig.addLayoutAlias('base', 'base.njk');
 
-  // Copy/pass-through files
-  // eleventyConfig.addPassthroughCopy('src/assets/css');
-  // eleventyConfig.addPassthroughCopy('src/assets/js');
-  eleventyConfig.addPassthroughCopy('src/assets/');
+    // Copy/pass-through files
+    // eleventyConfig.addPassthroughCopy('src/assets/css');
+    // eleventyConfig.addPassthroughCopy('src/assets/js');
+    eleventyConfig.addPassthroughCopy('src/assets/');
 
-  // Shortcodes
-  eleventyConfig.addShortcode(
-    "headers",
-    (title, subtitle) =>
-      `<h1>${title}</h1>
-        <p>${subtitle}</p>`
-  );
+    // Shortcodes
+    eleventyConfig.addShortcode(
+        'headers',
+        (title, subtitle) =>
+            `<h1>${title}</h1>
+        <p>${subtitle}</p>`,
+    );
 
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true,
-    // typographer:  false,
-    // quotes: '“”‘’',
-  };
+    let options = {
+        html: true,
+        breaks: true,
+        linkify: true,
+        // typographer:  false,
+        // quotes: '“”‘’',
+    };
 
-  eleventyConfig.setLibrary("md", markdownIt(options));
+    eleventyConfig.setLibrary('md', markdownIt(options));
 
-  return {
-    templateFormats: ['md', 'njk'],
-    htmlTemplateEngine: 'njk',
-    passthroughFileCopy: true,
-    dir: {
-      input: 'src',
-      output: '_site',
-      includes: '_includes',
-      layouts: 'layouts',
-      data: '_data',
-    },
-  }
-}
+    return {
+        templateFormats: ['md', 'njk'],
+        htmlTemplateEngine: 'njk',
+        passthroughFileCopy: true,
+        dir: {
+            input: 'src',
+            output: '_site',
+            includes: '_includes',
+            layouts: 'layouts',
+            data: '_data',
+        },
+    };
+};

@@ -29,7 +29,7 @@ For more details take a look at [package.json](package.json).
 
 ## Plugins
 
-- [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
+-   [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
 
 ## © License
 
