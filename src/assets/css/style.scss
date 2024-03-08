@@ -1,0 +1,48 @@
+:root {
+  --textColor: #1a1a1a;
+  --primaryColor: #7134ff;
+  --focusColor: #7231ff;
+  --backgroundColor: #ffffff;
+}
+
+// Very basic support for a dark color scheme
+// @media (prefers-color-scheme: dark) {
+//     :root {
+//         --color-mode: 'dark';
+//     }
+
+//     :root:not([data-user-color-scheme]) {
+//         --backgroundColor: #1a1a1a;
+//         --textColor: #eeeeee;
+//         --primaryColor: #a15cff;
+//     }
+// }
+
+body {
+  overflow-x: hidden;
+  color: var(--textColor);
+  background-color: var(--backgroundColor);
+  padding-right: var(--scrollbarComp);
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: var(--container-max-width);
+  padding: 2rem 1rem; // fallback
+  padding: 1rem clamp(var(--spacing-small), 3.75vw, var(--spacing-medium));
+}
+
+main.main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
