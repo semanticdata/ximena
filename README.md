@@ -4,26 +4,28 @@
 ![repository size](https://img.shields.io/github/repo-size/semanticdata/ximena)
 ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/ximena)
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena)
-![is website up?](https://img.shields.io/website/https/semaanticdata.github.io/ximena.svg)
+![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
 ## ⛑ Useful Commands
 
 ```sh
 # Install dependencies
-pnpm install
+npm install
 
 # Update dependencies
-pnpm update
+npm update
 
 # Start local dev server
-pnpm start
+npm start
 
 # Check formatting w/ Prettier
-pnpm run check
+npm run check
 
 # Fix formatting w/ Prettier
-pnpm run format
+npm run format
 ```
+
+For more details take a look at [package.json](package.json).
 
 ## Plugins
 

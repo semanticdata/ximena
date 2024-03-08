@@ -1,27 +1,31 @@
 {
-  "name": "ximena",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "check": "npx prettier . --check",
-    "format": "npx prettier . --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/semanticdata/miguelpimentel.do.git"
-},
-  "keywords": ["eleventy", "11ty", "sass"],
-  "author": "Miguel Pimentel",
-  "homepage": "https://miguelpimentel.do",
-  "license": "MIT",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
-  },
-  "dependencies": {
-    "eleventy-sass": "^2.2.4"
-  }
+    "name": "ximena",
+    "version": "1.0.0",
+    "description": "Ximena's description.",
+    "main": "index.js",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "build": "npx @11ty/eleventy",
+        "check": "npx prettier . --check",
+        "format": "npx prettier . --write",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/semanticdata/ximena.git"
+    },
+    "keywords": [
+        "eleventy",
+        "11ty",
+        "sass"
+    ],
+    "author": "Miguel Pimentel",
+    "homepage": "https://miguelpimentel.do/",
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1"
+    },
+    "dependencies": {
+        "eleventy-sass": "^2.2.4"
+    }
 }
