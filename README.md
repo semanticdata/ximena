@@ -25,6 +25,10 @@ pnpm run check
 pnpm run format
 ```
 
+## Plugins
+
+- [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
+
 ## © License
 
 © 2024 Miguel Pimentel • [MIT License](LICENSE)

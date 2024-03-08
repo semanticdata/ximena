@@ -1,6 +1,6 @@
 ---
 title: Markdown Showcase
-description: "This is intended as a quick reference and showcase of Markdown's synthax."
+layout: base
 ---
 
 # Markdown Showcase
