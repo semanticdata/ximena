@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site Title</title>
-    <meta name="description" content="Description of the site.">
+    <title>{{meta.title}}{% if title %} - {{title}} {% endif %}</title>
+    <meta
+      name="description"
+      content="{% if description %}
+        {{description}}
+      {% else %}
+        {{meta.description}}
+      {% endif %}"
+    />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
   </head>
   <header><h1>Site Title</h1></header>
   <body>
     <main id="main" class="main">{{ content | safe }}</main>
+    {% include 'footer.njk' %}
     <script type="module" src="{{ '/assets/js/script.js' | url }}"></script>
   </body>
 </html>

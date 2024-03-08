@@ -10,16 +10,25 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventySass);
 
   // Watch targets
-  eleventyConfig.addWatchTarget('./src/assets/css/');
-  eleventyConfig.addWatchTarget('./src/assets/js/');
+  // eleventyConfig.addWatchTarget('./src/assets/css/');
+  // eleventyConfig.addWatchTarget('./src/assets/js/');
   eleventyConfig.addWatchTarget('./src/layouts/');
 
+  // Layout aliases
   eleventyConfig.addLayoutAlias('base', 'base.njk');
 
   // Copy/pass-through files
-  eleventyConfig.addPassthroughCopy('src/assets/css');
-  eleventyConfig.addPassthroughCopy('src/assets/js');
+  // eleventyConfig.addPassthroughCopy('src/assets/css');
+  // eleventyConfig.addPassthroughCopy('src/assets/js');
   eleventyConfig.addPassthroughCopy('src/assets/');
+
+  // Shortcodes
+  eleventyConfig.addShortcode(
+    "headers",
+    (title, subtitle) =>
+      `<h1>${title}</h1>
+        <p>${subtitle}</p>`
+  );
 
   let options = {
     html: true,
