@@ -4,11 +4,14 @@
     "description": "Ximena's description.",
     "main": "index.js",
     "scripts": {
-        "start": "npx @11ty/eleventy --serve",
+        "start": "npm-run-all --parallel clean dev:*",
         "build": "npx @11ty/eleventy",
         "check": "npx prettier . --check",
         "format": "npx prettier . --write",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "clean": "rimraf _site",
+        "dev:start": "npx @11ty/eleventy --serve --quiet",
+        "dev:tailwindcss": "npx tailwindcss -i ./src/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css --watch --postcss"
     },
     "repository": {
         "type": "git",
@@ -23,10 +26,16 @@
     "homepage": "https://miguelpimentel.do/",
     "license": "MIT",
     "devDependencies": {
-        "@11ty/eleventy": "^2.0.1"
+        "@11ty/eleventy": "^2.0.1",
+        "autoprefixer": "^10.4.18",
+        "cssnano": "^6.1.0",
+        "postcss": "^8.4.35",
+        "tailwindcss": "^3.4.1"
     },
     "dependencies": {
         "eleventy-sass": "^2.2.4",
-        "prettier": "^3.2.5"
+        "npm-run-all": "^4.1.5",
+        "prettier": "^3.2.5",
+        "rimraf": "^5.0.5"
     }
 }
