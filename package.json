@@ -26,6 +26,7 @@
         "@11ty/eleventy": "^2.0.1"
     },
     "dependencies": {
-        "eleventy-sass": "^2.2.4"
+        "eleventy-sass": "^2.2.4",
+        "prettier": "^3.2.5"
     }
 }
