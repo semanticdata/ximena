@@ -1,29 +1,16 @@
 ---
-layout: base
+layout: tail
 title: Homepage
+# title: "Hi, I'm Miguel"
 ---
+# {{title}}
 
-# Homepage
+Hi, I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
+<!-- Problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US. -->
 
-Text can be **bold**, _italic_, ~~strikethrough~~, _**boldItalics**_, ~~_**ALL OF THEM**_~~.
+I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. While I like writing, reading, coding, and listening to music, I _**love**_ having a problem to solve.
 
-You can [link](https://example.dom/) to external pages. and other internal [[markdown|links]].
+Read more [about me](/about/), checkout my [journal](/journal/), visit my [uses](/uses/) page, or learn what I'm doing [now](/now/). Do keep in mind, this website is a _work-in-progress_.
 
-> This is a blockquote
-> with several lines
-
-Let us use some `inline code` and check out how it `looks`. Here's some `more`.
-
-```html
-<html>
-    <head>
-        <div style="background-color: #333;">
-            <a href="https://example.com/">Example</a>
-        </div>
-    </head>
-</html>
-```
-
-[Markdown](/markdown) | [Simple](/simple) | [Test](/test)
+Thanks for visiting. Tell your dog I said "Hi!".

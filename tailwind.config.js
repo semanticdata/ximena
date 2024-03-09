@@ -4,7 +4,9 @@ module.exports = {
     theme: {
         extend: {},
     },
-    plugins: [require('@tailwindcss/typography')],
+    plugins: [
+        require('@tailwindcss/typography'),
+        require('daisyui')],
     theme: {
         colors: {
             'blue': '#1fb6ff',

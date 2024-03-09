@@ -16,15 +16,17 @@ module.exports = function (eleventyConfig) {
     // Watch targets
     // eleventyConfig.addWatchTarget('./src/assets/css/');
     // eleventyConfig.addWatchTarget('./src/assets/js/');
-    eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css')
+    // eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css')
+    eleventyConfig.addWatchTarget('./src/assets/')
     eleventyConfig.addWatchTarget('./src/layouts/')
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('base', 'base.njk')
+    eleventyConfig.addLayoutAlias('tail', 'tail.njk')
 
     // Copy/pass-through files
     // eleventyConfig.addPassthroughCopy('src/assets/js');
-    eleventyConfig.addPassthroughCopy('src/assets/css');
+    // eleventyConfig.addPassthroughCopy('src/assets/css');
     eleventyConfig.addPassthroughCopy('src/assets/')
 
     // Shortcodes
@@ -50,7 +52,7 @@ module.exports = function (eleventyConfig) {
         postCss([
             tailwind(require('./tailwind.config')),
             autoprefixer(),
-            cssnano({preset: 'default'}),
+            cssnano({ preset: 'default' }),
         ])
             .process(cssCode, {
                 // path to our CSS file
