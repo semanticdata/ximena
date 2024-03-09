@@ -3,6 +3,7 @@ layout: tail
 title: Homepage
 # title: "Hi, I'm Miguel"
 ---
+
 # {{title}}
 
 Hi, I'm Miguel—problem solver, hobby developer, music enjoyer, and public infrastructure enthusiast based in Minnesota, US.

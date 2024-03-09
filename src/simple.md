@@ -22,9 +22,9 @@ You can [link](https://example.dom/) to external pages. and other internal [[mar
 2. Second item
 3. Third item
 
-- List item
-- Another item
-- And another item
+-   List item
+-   Another item
+-   And another item
 
 Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 

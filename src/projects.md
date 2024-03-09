@@ -2,7 +2,9 @@
 layout: tail
 title: Projects
 ---
+
 # {{title}}
+
 A non-inclusive, non-exhaustive compilation of my projects.
 
 ## Software

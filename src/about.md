@@ -2,20 +2,21 @@
 layout: tail
 title: About me
 ---
+
 # {{title}}
 
 Hello, my name is Miguel Pimentel. I am a self-taught hobby developer with too many ideas and not enough time. I was born in the Dominican Republic, and I currently live in Minnesota, US.
 
 I suffer from a chronic case of curiosity, which leads me to learn and do many interesting things like:
 
-- …designing bike trails and residential roads in AutoCAD Civil 3D.
-- …creating my own [browser extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
-- …teaching [ESL](https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language).
-- …learning web development and computer programming.
-- …getting licensed as a Firefighter.
-- …getting certified as Emergency Medical Technician.
-- …inspecting public road construction projects.
-- …working in a construction materials laboratory.
+-   …designing bike trails and residential roads in AutoCAD Civil 3D.
+-   …creating my own [browser extensions](https://addons.mozilla.org/en-US/firefox/user/17772574/).
+-   …teaching [ESL](https://en.wikipedia.org/wiki/English_as_a_second_or_foreign_language).
+-   …learning web development and computer programming.
+-   …getting licensed as a Firefighter.
+-   …getting certified as Emergency Medical Technician.
+-   …inspecting public road construction projects.
+-   …working in a construction materials laboratory.
 
 ## Work Experience
 
