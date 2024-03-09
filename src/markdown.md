@@ -1,6 +1,6 @@
 ---
-title: Markdown Showcase
 layout: base
+title: Markdown Showcase
 ---
 
 # Markdown Showcase

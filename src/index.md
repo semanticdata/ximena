@@ -1,6 +1,6 @@
 ---
-title: Homepage
 layout: base
+title: Homepage
 ---
 
 # Homepage
@@ -25,3 +25,5 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
     </head>
 </html>
 ```
+
+[Markdown](/markdown) | [Simple](/simple) | [Test](/test)

@@ -1,6 +1,6 @@
 ---
-layout: base
-title: Simple
+layout: tw-only.njk
+title: Test
 ---
 
 # Homepage
