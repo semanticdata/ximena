@@ -68,9 +68,9 @@ module.exports = function (eleventyConfig) {
 
     return {
         pathPrefix: '/ximena/',
-        templateFormats: ['md', 'njk'],
-        htmlTemplateEngine: 'njk',
+        templateFormats: ['md', 'njk', 'html', 'liquid'],
         markdownTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
         passthroughFileCopy: true,
         dir: {
             input: 'src',
