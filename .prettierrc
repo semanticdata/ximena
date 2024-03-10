@@ -19,12 +19,6 @@
             "options": {
                 "parser": "json"
             }
-        },
-        `{
-            "files": ".editorconfig",
-            "options": {
-                "parser": "toml"
-            }
-        }`
+        }
     ]
 }
