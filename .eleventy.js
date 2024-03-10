@@ -13,6 +13,8 @@ module.exports = function (eleventyConfig) {
 		// './node_modules/prismjs/themes/prism-okaidia.css':
 		// '/css/prism-okaidia.css',
 	})
+	eleventyConfig.addPassthroughCopy('public')
+
 	// Plugins
 	eleventyConfig.addPlugin(eleventySass)
 
@@ -57,7 +59,7 @@ module.exports = function (eleventyConfig) {
 		])
 			.process(cssCode, {
 				// Path to CSS file
-				from: './assets/css/tailwind.css',
+				from: './public/assets/css/tailwind.css',
 			})
 			.then(
 				(r) => done(null, r.css),
@@ -67,7 +69,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
 	return {
-		templateFormats: ['md', 'njk', 'html', 'liquid'],
+		pathPrefix: '/ximena/',
+		templateFormats: ['md', 'njk'],
 		markdownTemplateEngine: 'njk',
 		htmlTemplateEngine: 'njk',
 		passthroughFileCopy: true,
@@ -79,6 +82,5 @@ module.exports = function (eleventyConfig) {
 			layouts: '_layouts',
 			data: '_data',
 		},
-		// pathPrefix: '/ximena/',
 	}
 }

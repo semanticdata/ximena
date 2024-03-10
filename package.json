@@ -11,7 +11,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"clean": "rimraf _site",
 		"dev:start": "npx @11ty/eleventy --serve --quiet",
-		"dev:tailwindcss": "npx tailwindcss -i ./public/assets/css/tailwind.css -o ./assets/css/tailwindy.css --watch --postcss"
+		"dev:tailwindcss": "npx tailwindcss -i ./public/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css --watch"
 	},
 	"repository": {
 		"type": "git",

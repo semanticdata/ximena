@@ -12,10 +12,10 @@ Hi, I'm Miguel—problem solver, hobby developer, music enjoyer, and public infr
 
 I think a lot, work a lot, have existential crises, and know just enough about making websites to make me dangerous. While I like writing, reading, coding, and listening to music, I _**love**_ having a problem to solve.
 
-Read more [about me](/ximena/about/), checkout my [journal](/ximena/journal/), visit my [uses](/ximena/uses/) page, or learn what I'm doing [now](/ximena/now/). Do keep in mind, this website is a _work-in-progress_.
+Read more [about me](about/), checkout my [journal](journal/), visit my [uses](uses/) page, or learn what I'm doing [now](now/). Do keep in mind, this website is a _work-in-progress_.
 
 Thanks for visiting. Tell your dog I said "Hi!".
 
 ## Links
 
-[Markdown](/ximena/markdown) - [Simple](/ximena/simple) - [Projects](/ximena/projects) - [Blog](/ximena/blog) - [Notes](/ximena/notes)
+[Markdown](markdown/) - [Simple](simple/) - [Projects](projects/) - [Blog](blog/) - [Notes](notes/)
