@@ -1,6 +1,6 @@
 {
 	"name": "ximena",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Ximena's description.",
 	"main": "index.js",
 	"scripts": {
@@ -20,7 +20,9 @@
 	"keywords": [
 		"eleventy",
 		"11ty",
-		"sass"
+		"sass",
+  "tailwindcss",
+  "postcss"
 	],
 	"author": "Miguel Pimentel",
 	"homepage": "https://miguelpimentel.do/",
