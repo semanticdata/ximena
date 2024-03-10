@@ -1,7 +1,7 @@
 ---
 title: Serif
 tags:
-    - typography
+  - typography
 compartir: true
 ---
 
@@ -13,5 +13,5 @@ In typography, a serif (/ˈsɛrɪf/) is a small line or stroke regularly attache
 
 ```css
 font-family: Constantia, 'Lucida Bright', Lucidabright, 'Lucida Serif', Lucida,
-    'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif;
+	'DejaVu Serif', 'Bitstream Vera Serif', 'Liberation Serif', Georgia, serif;
 ```

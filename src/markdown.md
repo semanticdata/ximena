@@ -68,15 +68,15 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
--   List item
--   Another item
--   And another item
+- List item
+- Another item
+- And another item
 
 ### Nested List
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
--   Item
+- Item
 
 1. First Sub-item
 2. Second Sub-item
@@ -84,7 +84,7 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 4. Another one
 5. Sub-item
 
--   Unordered again
+- Unordered again
 
 ## Code
 
@@ -96,26 +96,26 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 
 ```html
 <html>
-    <head>
-        <div style="background-color: #333;">
-            <a href="https://example.com/">Example</a>
-        </div>
-    </head>
+	<head>
+		<div style="background-color: #333;">
+			<a href="https://example.com/">Example</a>
+		</div>
+	</head>
 </html>
 ```
 
 ```css
 .niceClass {
-    color: blue;
-    background-color: #fff;
+	color: blue;
+	background-color: #fff;
 }
 ```
 
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-    dateformat.i18n = require('./lang/' + l)
-    return true
+	dateformat.i18n = require('./lang/' + l)
+	return true
 }
 ```
 
