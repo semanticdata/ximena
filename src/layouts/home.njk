@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{meta.title}}{% if title %} - {{title}} {% endif %}</title>
+    <title>{{metadata.title}}{% if title %} - {{title}} {% endif %}</title>
     <meta
       name="description"
       content="{% if description %}
         {{description}}
       {% else %}
-        {{meta.description}}
+        {{metadata.description}}
       {% endif %}"
     />
     <link rel="stylesheet" href="/assets/css/tailwindy.css" />
