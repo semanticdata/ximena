@@ -4,13 +4,15 @@ const tailwind = require('tailwindcss')
 const postCss = require('postcss')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
-// const { DateTime } = require('luxon')
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy')
-    eleventyConfig.addPassthroughCopy('/public')
     eleventyConfig.setQuietMode(true)
-
+    eleventyConfig.addPassthroughCopy({
+        './public/': '/',
+        // './node_modules/prismjs/themes/prism-okaidia.css':
+        // '/css/prism-okaidia.css',
+    })
     // Plugins
     eleventyConfig.addPlugin(eleventySass)
 
@@ -47,15 +49,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setLibrary('md', markdownIt(options))
 
     const postcssFilter = (cssCode, done) => {
-        // we call PostCSS here.
+        // Call PostCSS
         postCss([
             tailwind(require('./tailwind.config')),
             autoprefixer(),
             cssnano({ preset: 'default' }),
         ])
             .process(cssCode, {
-                // path to our CSS file
-                from: './src/assets/css/tailwind.css',
+                // Path to CSS file
+                from: './_site/assets/css/tailwind.css',
             })
             .then(
                 (r) => done(null, r.css),
