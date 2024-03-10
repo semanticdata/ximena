@@ -22,13 +22,13 @@ module.exports = function (eleventyConfig) {
 
 	// Layout aliases
 	eleventyConfig.addLayoutAlias('home', 'home.njk')
-	eleventyConfig.addLayoutAlias('post', 'post.njk')
 	eleventyConfig.addLayoutAlias('note', 'note.njk')
+	eleventyConfig.addLayoutAlias('post', 'post.njk')
 	eleventyConfig.addLayoutAlias('tail', 'tail.njk')
 
 	// Copy/pass-through
-	eleventyConfig.addPassthroughCopy('src/assets/js/')
 	eleventyConfig.addPassthroughCopy('src/assets/css/')
+	eleventyConfig.addPassthroughCopy('src/assets/js/')
 
 	// Shortcodes
 	eleventyConfig.addShortcode(
@@ -57,7 +57,7 @@ module.exports = function (eleventyConfig) {
 		])
 			.process(cssCode, {
 				// Path to CSS file
-				from: './src/assets/css/tailwind.css',
+				from: './assets/css/tailwind.css',
 			})
 			.then(
 				(r) => done(null, r.css),
@@ -79,6 +79,6 @@ module.exports = function (eleventyConfig) {
 			layouts: '_layouts',
 			data: '_data',
 		},
-		pathPrefix: '/ximena/',
+		// pathPrefix: '/ximena/',
 	}
 }

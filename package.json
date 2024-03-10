@@ -10,8 +10,8 @@
 		"format": "npx prettier . --write",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"clean": "rimraf _site",
-		"dev:start": "npx @11ty/eleventy --serve --quiet --incremental",
-		"dev:tailwindcss": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwindy.css --watch --postcss"
+		"dev:start": "npx @11ty/eleventy --serve --quiet",
+		"dev:tailwindcss": "npx tailwindcss -i ./public/assets/css/tailwind.css -o ./assets/css/tailwindy.css --watch --postcss"
 	},
 	"repository": {
 		"type": "git",
