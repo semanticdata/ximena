@@ -27,6 +27,18 @@ npm run format
 
 For more details take a look at [package.json](package.json).
 
+## Features
+
+- [x] Wikilinks
+- [x] Blog section
+- [ ] Setup repository-wide code formatting (w/ Prettier)
+- [ ] RSS feed
+- [ ] XSL style for RSS feed
+- [x] Notes section
+- [ ] Backlinks
+- [ ] Hover preview (for backlinks)
+- [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
+
 ## Plugins
 
 - [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)

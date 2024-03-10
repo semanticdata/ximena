@@ -21,8 +21,8 @@
 		"eleventy",
 		"11ty",
 		"sass",
-  "tailwindcss",
-  "postcss"
+		"tailwindcss",
+		"postcss"
 	],
 	"author": "Miguel Pimentel",
 	"homepage": "https://miguelpimentel.do/",

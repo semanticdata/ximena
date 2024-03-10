@@ -50,10 +50,10 @@ module.exports = function (eleventyConfig) {
 	}
 	eleventyConfig.setLibrary('md', markdownIt(options))
 	const markdownItOptions = {
-        html: true,
-        linkify: true,
-        typographer: true,
-    };
+		html: true,
+		linkify: true,
+		typographer: true,
+	}
 
 	const postcssFilter = (cssCode, done) => {
 		// Call PostCSS
@@ -73,21 +73,21 @@ module.exports = function (eleventyConfig) {
 	}
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
-    const md = markdownIt(markdownItOptions).use(function (md) {
-        // Recognize Mediawiki links ([[text]])
-        md.linkify.add('[[', {
-            validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
-            normalize: (match) => {
-                const parts = match.raw.slice(2, -2).split('|');
-                parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '');
-                match.text = (parts[1] || parts[0]).trim();
-                match.url = `/ximena/notes/${parts[0].trim()}/`;
-            },
-        });
-    });
+	const md = markdownIt(markdownItOptions).use(function (md) {
+		// Recognize Mediawiki links ([[text]])
+		md.linkify.add('[[', {
+			validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+			normalize: (match) => {
+				const parts = match.raw.slice(2, -2).split('|')
+				parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '')
+				match.text = (parts[1] || parts[0]).trim()
+				match.url = `/ximena/notes/${parts[0].trim()}/`
+			},
+		})
+	})
 
-    // eleventyConfig.setLibrary('md', markdownLibrary);
-    eleventyConfig.setLibrary('md', md);
+	// eleventyConfig.setLibrary('md', markdownLibrary);
+	eleventyConfig.setLibrary('md', md)
 
 	return {
 		pathPrefix: '/ximena/',
