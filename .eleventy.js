@@ -49,8 +49,11 @@ module.exports = function (eleventyConfig) {
 		// typographer:  false,
 	}
 	eleventyConfig.setLibrary('md', markdownIt(options))
-
-    // eleventyConfig.setLibrary('md', markdownLibrary);
+	const markdownItOptions = {
+        html: true,
+        linkify: true,
+        typographer: true,
+    };
 
 	const postcssFilter = (cssCode, done) => {
 		// Call PostCSS
@@ -70,8 +73,6 @@ module.exports = function (eleventyConfig) {
 	}
 	eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
-
-
     const md = markdownIt(markdownItOptions).use(function (md) {
         // Recognize Mediawiki links ([[text]])
         md.linkify.add('[[', {
@@ -80,7 +81,7 @@ module.exports = function (eleventyConfig) {
                 const parts = match.raw.slice(2, -2).split('|');
                 parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '');
                 match.text = (parts[1] || parts[0]).trim();
-                match.url = `/notes/${parts[0].trim()}/`;
+                match.url = `/ximena/notes/${parts[0].trim()}/`;
             },
         });
     });
