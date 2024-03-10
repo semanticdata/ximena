@@ -150,10 +150,7 @@ div#header+div.page+div#footer.class1.class2.class3
 ```html
 <div id="header"></div>
 <div class="page"></div>
-<div
-    id="footer"
-    class="class1 class2 class3"
-></div>
+<div id="footer" class="class1 class2 class3"></div>
 ```
 
 ## Custom Attributes
@@ -163,10 +160,7 @@ td[title="Hello world!" colspan=3]
 ```
 
 ```html
-<td
-    title="Hello world!"
-    colspan="3"
-></td>
+<td title="Hello world!" colspan="3"></td>
 ```
 
 ## Item Numbering

@@ -4,7 +4,7 @@ const tailwind = require('tailwindcss')
 const postCss = require('postcss')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
-const {DateTime} = require('luxon');
+const { DateTime } = require('luxon')
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy')
