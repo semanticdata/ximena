@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
     // Layout aliases
     eleventyConfig.addLayoutAlias('home', 'home.njk')
     eleventyConfig.addLayoutAlias('post', 'post.njk')
+    eleventyConfig.addLayoutAlias('note', 'note.njk')
     eleventyConfig.addLayoutAlias('tail', 'tail.njk')
 
     // Copy/pass-through
@@ -39,7 +40,7 @@ module.exports = function (eleventyConfig) {
         html: true,
         breaks: true,
         linkify: true,
-        quotes: '“”‘’',
+        // quotes: '“”‘’',
         // typographer:  false,
     }
     eleventyConfig.setLibrary('md', markdownIt(options))
@@ -63,7 +64,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
     return {
-        pathPrefix: "/ximena",
+        pathPrefix: "/ximena/",
         templateFormats: ['md', 'njk'],
         htmlTemplateEngine: 'njk',
         markdownTemplateEngine: 'njk',
