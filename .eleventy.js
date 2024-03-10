@@ -4,7 +4,7 @@ const tailwind = require('tailwindcss')
 const postCss = require('postcss')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
-const { DateTime } = require('luxon')
+// const { DateTime } = require('luxon')
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy')
@@ -63,7 +63,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
     return {
-        pathPrefix: "/ximena/",
+        pathPrefix: "/ximena",
         templateFormats: ['md', 'njk'],
         htmlTemplateEngine: 'njk',
         markdownTemplateEngine: 'njk',
