@@ -4,6 +4,7 @@ const tailwind = require('tailwindcss')
 const postCss = require('postcss')
 const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
+const {DateTime} = require('luxon');
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy')
@@ -14,19 +15,15 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventySass)
 
     // Watch targets
-    // eleventyConfig.addWatchTarget('./src/assets/css/');
-    // eleventyConfig.addWatchTarget('./src/assets/js/');
-    // eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css')
     eleventyConfig.addWatchTarget('./src/assets/')
     eleventyConfig.addWatchTarget('./src/layouts/')
 
     // Layout aliases
-    eleventyConfig.addLayoutAlias('base', 'base.njk')
+    eleventyConfig.addLayoutAlias('home', 'home.njk')
+    eleventyConfig.addLayoutAlias('post', 'post.njk')
     eleventyConfig.addLayoutAlias('tail', 'tail.njk')
 
-    // Copy/pass-through files
-    // eleventyConfig.addPassthroughCopy('src/assets/js');
-    // eleventyConfig.addPassthroughCopy('src/assets/css');
+    // Copy/pass-through
     eleventyConfig.addPassthroughCopy('src/assets/')
 
     // Shortcodes
@@ -37,14 +34,14 @@ module.exports = function (eleventyConfig) {
         <p>${subtitle}</p>`,
     )
 
+    // Markdown-It Options
     let options = {
         html: true,
         breaks: true,
         linkify: true,
+        quotes: '“”‘’',
         // typographer:  false,
-        // quotes: '“”‘’',
     }
-
     eleventyConfig.setLibrary('md', markdownIt(options))
 
     const postcssFilter = (cssCode, done) => {

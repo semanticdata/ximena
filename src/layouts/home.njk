@@ -12,13 +12,15 @@
         {{meta.description}}
       {% endif %}"
     />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/tailwindy.css' | url }}" />
   </head>
-  <header><h1 class="text-3xl font-bold underline">{{ meta.title }}</h1></header>
+
   <body>
-    <main>{{ content | safe }}</main>
-    {% include 'footer.njk' %}
+    <main class="min-h-screen hero">
+      <div class="hero-content">
+        <article class="prose prose-article">{{ content | safe }}</article>
+      </div>
+    </main>
     <script type="module" src="{{ '/assets/js/script.js' | url }}"></script>
   </body>
 </html>

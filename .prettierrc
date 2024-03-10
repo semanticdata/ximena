@@ -12,7 +12,7 @@
     "proseWrap": "preserve",
     "endOfLine": "auto",
     "embeddedLanguageFormatting": "auto",
-    "singleAttributePerLine": true,
+    "singleAttributePerLine": false,
     "overrides": [
         {
             "files": ".prettierrc",

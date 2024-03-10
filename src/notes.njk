@@ -1,0 +1,24 @@
+---
+layout: tail
+title: Notes
+---
+
+<h1 class="note-title">{{ title }}</h1>
+
+{{content|safe}}
+
+{% set noteslist = collections.notes %}
+
+<ul>
+    {% for note in noteslist %}
+        <li>
+            <a href="{{ note.url | url }}">
+                {% if note.data.title %}
+                    {{ note.data.title }}
+                {% else %}
+                    <code>{{ note.url }}</code>
+                {% endif %}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
