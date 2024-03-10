@@ -6,7 +6,7 @@
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena)
 ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-## ⛑ Useful Commands
+## Useful Commands
 
 ```sh
 # Install dependencies
@@ -31,11 +31,11 @@ For more details take a look at [package.json](package.json).
 
 - [x] Wikilinks
 - [x] Blog section
-- [ ] Setup repository-wide code formatting (w/ Prettier)
+- [x] Notes section
+- [x] Setup Prettier
 - [ ] RSS feed
 - [ ] XSL style for RSS feed
-- [x] Notes section
-- [ ] Backlinks
+- [ ] Backlinks (`[[Link]]`)
 - [ ] Hover preview (for backlinks)
 - [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
 
