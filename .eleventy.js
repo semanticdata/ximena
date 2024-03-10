@@ -18,7 +18,7 @@ module.exports = function (eleventyConfig) {
 
     // Watch targets
     eleventyConfig.addWatchTarget('./src/assets/')
-    eleventyConfig.addWatchTarget('./src/layouts/')
+    eleventyConfig.addWatchTarget('./src/_layouts/')
 
     // Layout aliases
     eleventyConfig.addLayoutAlias('home', 'home.njk')
@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
 
     // Copy/pass-through
     eleventyConfig.addPassthroughCopy('src/assets/js/')
-    eleventyConfig.addPassthroughCopy('src/assets/css/style.scss')
+    eleventyConfig.addPassthroughCopy('src/assets/css/')
 
     // Shortcodes
     eleventyConfig.addShortcode(
@@ -57,7 +57,7 @@ module.exports = function (eleventyConfig) {
         ])
             .process(cssCode, {
                 // Path to CSS file
-                from: './_site/assets/css/tailwind.css',
+                from: './src/assets/css/tailwind.css',
             })
             .then(
                 (r) => done(null, r.css),
@@ -76,7 +76,7 @@ module.exports = function (eleventyConfig) {
             input: 'src',
             output: '_site',
             includes: '_includes',
-            layouts: 'layouts',
+            layouts: '_layouts',
             data: '_data',
         },
         pathPrefix: '/ximena/',

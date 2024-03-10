@@ -1,8 +1,8 @@
 {
     "$schema": "https://json.schemastore.org/prettierrc.json",
     "printWidth": 80,
-    "tabWidth": 4,
-    "useTabs": false,
+    "tabWidth": 2,
+    "useTabs": true,
     "semi": false,
     "singleQuote": true,
     "quoteProps": "consistent",
@@ -10,7 +10,7 @@
     "bracketSpacing": true,
     "arrowParens": "always",
     "proseWrap": "preserve",
-    "endOfLine": "auto",
+    "endOfLine": "lf",
     "embeddedLanguageFormatting": "auto",
     "singleAttributePerLine": false,
     "overrides": [
@@ -19,6 +19,12 @@
             "options": {
                 "parser": "json"
             }
-        }
+        },
+        `{
+            "files": ".editorconfig",
+            "options": {
+                "parser": "toml"
+            }
+        }`
     ]
 }
