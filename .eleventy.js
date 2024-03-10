@@ -67,11 +67,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addNunjucksAsyncFilter('postcss', postcssFilter)
 
     return {
-        pathPrefix: '/ximena/',
         templateFormats: ['md', 'njk', 'html', 'liquid'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
         passthroughFileCopy: true,
+
         dir: {
             input: 'src',
             output: '_site',
@@ -79,5 +79,6 @@ module.exports = function (eleventyConfig) {
             layouts: 'layouts',
             data: '_data',
         },
+        pathPrefix: '/ximena/',
     }
 }
