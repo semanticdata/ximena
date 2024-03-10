@@ -25,7 +25,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('tail', 'tail.njk')
 
     // Copy/pass-through
-    eleventyConfig.addPassthroughCopy('src/assets/')
+    eleventyConfig.addPassthroughCopy('src/assets/js/')
+    eleventyConfig.addPassthroughCopy('src/assets/css/style.scss')
 
     // Shortcodes
     eleventyConfig.addShortcode(
