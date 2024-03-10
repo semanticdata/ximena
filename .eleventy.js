@@ -50,6 +50,23 @@ module.exports = function (eleventyConfig) {
 	}
 	eleventyConfig.setLibrary('md', markdownIt(options))
 
+
+    const md = markdownIt(markdownItOptions).use(function (md) {
+        // Recognize Mediawiki links ([[text]])
+        md.linkify.add('[[', {
+            validate: /^\s?([^\[\]\|\n\r]+)(\|[^\[\]\|\n\r]+)?\s?\]\]/,
+            normalize: (match) => {
+                const parts = match.raw.slice(2, -2).split('|');
+                parts[0] = parts[0].replace(/.(md|markdown)\s?$/i, '');
+                match.text = (parts[1] || parts[0]).trim();
+                match.url = `/notes/${parts[0].trim()}/`;
+            },
+        });
+    });
+
+    // eleventyConfig.setLibrary('md', markdownLibrary);
+    eleventyConfig.setLibrary('md', md);
+
 	const postcssFilter = (cssCode, done) => {
 		// Call PostCSS
 		postCss([
