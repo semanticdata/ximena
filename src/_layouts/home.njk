@@ -12,7 +12,42 @@
         {{metadata.description}}
       {% endif %}"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/images/favicon/site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ '/assets/images/favicon/favicon.ico' | url }}"
+    />
     <link rel="stylesheet" href="{{ '/assets/css/tailwindy.css' | url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
+    <script>
+      if (
+        localStorage.getItem("color-theme") === "dark" ||
+        (!("color-theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark")
+      } else {
+        document.documentElement.classList.remove("dark")
+      }
+    </script>
   </head>
 
   <body>
