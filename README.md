@@ -27,17 +27,23 @@ npm run format
 
 For more details take a look at [package.json](package.json).
 
-## Features
+## Features and TODOs
 
 - [x] Wikilinks
+- [x] [TailwindCSS](https://tailwindcss.com/)
+- [x] [daisyUI](https://daisyui.com/)
 - [x] Blog section
 - [x] Notes section
 - [x] Setup Prettier
+- [ ] CSS/Sass post-processing with [PostCSS](https://postcss.org/) (incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano))
 - [ ] RSS feed
-- [ ] XSL style for RSS feed
-- [ ] Backlinks (`[[Link]]`)
-- [ ] Hover preview (for backlinks)
+- [ ] Dark mode
+- [ ] Theme toggle
+- [ ] Backlinks
 - [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
+- [ ] Sitemap
+- [ ] robots.txt
+- [ ] Syntax highlighting
 
 ## Plugins
 
