@@ -23,10 +23,10 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addWatchTarget('./src/_layouts/')
 
 	// Layout aliases
+	eleventyConfig.addLayoutAlias('base', 'base.njk')
 	eleventyConfig.addLayoutAlias('home', 'home.njk')
 	eleventyConfig.addLayoutAlias('note', 'note.njk')
 	eleventyConfig.addLayoutAlias('post', 'post.njk')
-	eleventyConfig.addLayoutAlias('base', 'base.njk')
 
 	// Copy/pass-through
 	eleventyConfig.addPassthroughCopy('src/assets/css/')
