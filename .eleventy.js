@@ -6,8 +6,8 @@ const autoprefixer = require('autoprefixer')
 const cssnano = require('cssnano')
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.setServerPassthroughCopyBehavior('copy')
-    // eleventyConfig.setServerPassthroughCopyBehavior('passthrough')
+    // eleventyConfig.setServerPassthroughCopyBehavior('copy')
+    eleventyConfig.setServerPassthroughCopyBehavior('passthrough')
     eleventyConfig.setQuietMode(true)
 
     // Plugins
