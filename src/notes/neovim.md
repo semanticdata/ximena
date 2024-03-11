@@ -3,10 +3,10 @@ title: NeoVim
 compartir: true
 
 tags:
-  - reference
+    - reference
 aliases:
-  - Nvim
-  - Vim
+    - Nvim
+    - Vim
 description: 'NeoVim is a fork of Vim focused on extensibility and usability.'
 ---
 

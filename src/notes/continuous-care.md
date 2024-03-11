@@ -1,7 +1,7 @@
 ---
 title: Continuous Care
 tags:
-  - digital-gardening
+    - digital-gardening
 compartir: true
 
 description: 'Be the watchful caretaker of your ever growing plants and flowers. Grow your knowledge by forming new branches and connecting the dots.'

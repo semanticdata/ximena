@@ -1,7 +1,7 @@
 ---
 title: Free Facts
 tags:
-  - collection
+    - collection
 compartir: true
 
 description: 'Compilation of "Free" Facts. They are not fun, but they are free.'

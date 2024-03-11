@@ -1,7 +1,7 @@
 ---
 title: Quotes Collection
 tags:
-  - collection
+    - collection
 compartir: true
 
 description: 'Collection of quotes I like.'

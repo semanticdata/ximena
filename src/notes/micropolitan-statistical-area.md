@@ -3,7 +3,7 @@ title: Micropolitan Statistical Area
 compartir: true
 
 tags:
-  - statistics
+    - statistics
 description: 'Labor market and statistical areas in the United States centered on an urban cluster with a population of at least 10,000 but fewer than 50,000 people.'
 ---
 

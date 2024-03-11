@@ -1,8 +1,8 @@
 ---
 title: JavaScript
 aliases:
-  - Javascript
-  - JS
+    - Javascript
+    - JS
 compartir: true
 
 description: 'Versatile and powerful programming language used for building interactive and dynamic web applications.'

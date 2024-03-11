@@ -1,7 +1,7 @@
 ---
 title: Chords (music)
 tags:
-  - music
+    - music
 compartir: true
 
 description: 'In music, a chord is any harmonic set of pitches/frequencies consisting of multiple notes (also called "pitches") that are heard as if sounding simultaneously.'

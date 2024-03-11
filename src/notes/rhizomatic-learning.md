@@ -3,7 +3,7 @@ title: Rhizomatic Learning
 compartir: true
 
 tags:
-  - stub
+    - stub
 description: 'Rhizomatic learning is a variety of pedagogical practices informed by the work of Gilles Deleuze and Félix Guattari.'
 ---
 

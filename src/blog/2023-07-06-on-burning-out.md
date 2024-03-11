@@ -14,11 +14,11 @@ Depends on where the question is being asked. Volunteer, or sometimes paid-on-ca
 
 Here are some quick facts on being a volunteer/paid-on-call firefighter for the fourth-largest city (by population) in Minnesota a few of years before:
 
-- Bloomington has 6 fire stations spread somewhat evenly over the city.
-- To be eligible, you need to live within 4 minutes of your nearest fire station.
-- You carry a pager around, when specific tones play, you are being asked to respond. This meant stopping anything you were doing, driving to the station, and responding to the incident in a fire vehicle.
-- Depending on incident time, one, two, three, or all six stations can be paged together to respond. For example, medicals calls involve 1 station responding with 1 truck, while residential fire calls start a 3 station response immediately.
-- You need to respond to at least 30% of the calls that were assigned to your station. These meant emergency calls during your work hours, weekends, holidays count against you.
+-   Bloomington has 6 fire stations spread somewhat evenly over the city.
+-   To be eligible, you need to live within 4 minutes of your nearest fire station.
+-   You carry a pager around, when specific tones play, you are being asked to respond. This meant stopping anything you were doing, driving to the station, and responding to the incident in a fire vehicle.
+-   Depending on incident time, one, two, three, or all six stations can be paged together to respond. For example, medicals calls involve 1 station responding with 1 truck, while residential fire calls start a 3 station response immediately.
+-   You need to respond to at least 30% of the calls that were assigned to your station. These meant emergency calls during your work hours, weekends, holidays count against you.
 
 ## Learning What Being Homesick Was All About
 

@@ -34,10 +34,10 @@ Avoid getting stuck on details. You can change your hosting provider later. The 
 
 Here are a few places to start:
 
-- [WordPress](https://wordpress.com/)
-- [Blogger](https://www.blogger.com/)
-- [Medium](https://medium.com/)
-- [Bear](https://bearblog.dev/)
-- [Mataroa](https://mataroa.blog/)
-- [Prose.sh](https://prose.sh/)
-- [DEV Community](https://dev.to/)
+-   [WordPress](https://wordpress.com/)
+-   [Blogger](https://www.blogger.com/)
+-   [Medium](https://medium.com/)
+-   [Bear](https://bearblog.dev/)
+-   [Mataroa](https://mataroa.blog/)
+-   [Prose.sh](https://prose.sh/)
+-   [DEV Community](https://dev.to/)

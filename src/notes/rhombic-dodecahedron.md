@@ -3,7 +3,7 @@ title: Rhombic Dodecahedron
 compartir: true
 
 tags:
-  - stub
+    - stub
 description: 'Convex polyhedron with 12 congruent rhombic faces.'
 ---
 
