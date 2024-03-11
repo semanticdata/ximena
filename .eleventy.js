@@ -7,13 +7,8 @@ const cssnano = require('cssnano')
 
 module.exports = function (eleventyConfig) {
     eleventyConfig.setServerPassthroughCopyBehavior('copy')
+    // eleventyConfig.setServerPassthroughCopyBehavior('passthrough')
     eleventyConfig.setQuietMode(true)
-    eleventyConfig.addPassthroughCopy({
-        './public/': '/',
-        // './node_modules/prismjs/themes/prism-okaidia.css':
-        // '/css/prism-okaidia.css',
-    })
-    eleventyConfig.addPassthroughCopy('public')
 
     // Plugins
     eleventyConfig.addPlugin(eleventySass)
@@ -29,8 +24,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('post', 'post.njk')
 
     // Copy/pass-through
-    eleventyConfig.addPassthroughCopy('src/assets/css/')
-    eleventyConfig.addPassthroughCopy('src/assets/js/')
+    eleventyConfig.addPassthroughCopy('src/assets')
+    eleventyConfig.addPassthroughCopy('public')
+    // eleventyConfig.addPassthroughCopy({
+    //     './public/': '/',
+    //     './node_modules/prismjs/themes/prism-okaidia.css':
+    //     '/css/prism-okaidia.css',
+    // })
 
     // Shortcodes
     eleventyConfig.addShortcode(
