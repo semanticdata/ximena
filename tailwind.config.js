@@ -3,7 +3,7 @@ const colors = require('tailwindcss/colors')
 module.exports = {
     content: ['./src/**/*.{njk,md}', './src/**/*.svg'],
     plugins: [require('@tailwindcss/typography'), require('daisyui')],
-    darkMode: 'class',
+    darkMode: 'selector',
     theme: {
         colors: {
             // 'blue': '#1fb6ff',
