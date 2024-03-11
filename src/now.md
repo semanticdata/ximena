@@ -1,5 +1,5 @@
 ---
-layout: tail
+layout: base
 title: Now
 description: A glance at what I'm working on right now.
 ---

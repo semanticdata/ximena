@@ -1,5 +1,5 @@
 ---
-layout: tail
+layout: base
 title: Journal
 description: This section explores the concept of maintaining a Public Journal.
 ---

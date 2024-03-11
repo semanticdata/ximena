@@ -18,4 +18,4 @@ Thanks for visiting. Tell your dog I said "Hi!".
 
 ## Links
 
-[Markdown](markdown/) - [Simple](simple/) - [Projects](projects/) - [Blog](blog/) - [Notes](notes/)
+[Markdown](markdown/) - [Simple](simple/) - [Projects](projects/) - [Blog](blog/) - [Notes](notes/) - [Kitchen Sink](kitchen-sink/)

@@ -6,7 +6,7 @@
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena)
 ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-## ⛑ Useful Commands
+## Useful Commands
 
 ```sh
 # Install dependencies
@@ -27,17 +27,23 @@ npm run format
 
 For more details take a look at [package.json](package.json).
 
-## Features
+## Features and TODOs
 
 - [x] Wikilinks
+- [x] [TailwindCSS](https://tailwindcss.com/)
+- [x] [daisyUI](https://daisyui.com/)
 - [x] Blog section
-- [ ] Setup repository-wide code formatting (w/ Prettier)
-- [ ] RSS feed
-- [ ] XSL style for RSS feed
 - [x] Notes section
+- [x] Setup Prettier
+- [ ] CSS/Sass post-processing with [PostCSS](https://postcss.org/) (incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano))
+- [ ] RSS feed
+- [ ] Dark mode
+- [ ] Theme toggle
 - [ ] Backlinks
-- [ ] Hover preview (for backlinks)
 - [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
+- [ ] Sitemap
+- [ ] robots.txt
+- [ ] Syntax highlighting
 
 ## Plugins
 
