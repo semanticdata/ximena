@@ -1,5 +1,0 @@
-{
-    "buildCommand": "npm run vercel",
-    "cleanUrls": true,
-    "framework": "eleventy"
-}

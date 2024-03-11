@@ -4,17 +4,12 @@
     "framework": "eleventy",
     "headers": [
         {
-            "source": "/service-worker.js",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=0, must-revalidate"
-                }
-            ]
-        },
-        {
             "source": "/(.*)",
             "headers": [
+                {
+                    "key": "Referrer-Policy",
+                    "value": "no-referrer-when-downgrade"
+                },
                 {
                     "key": "X-Content-Type-Options",
                     "value": "nosniff"
@@ -26,21 +21,10 @@
                 {
                     "key": "X-XSS-Protection",
                     "value": "1; mode=block"
-                }
-            ]
-        },
-        {
-            "source": "/:path*",
-            "has": [
+                },
                 {
-                    "type": "query",
-                    "key": "authorized"
-                }
-            ],
-            "headers": [
-                {
-                    "key": "x-authorized",
-                    "value": "true"
+                    "key": "X-Robots-Tag",
+                    "value": "noindex"
                 }
             ]
         }
