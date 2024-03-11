@@ -90,7 +90,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setLibrary('md', md)
 
     return {
-        pathPrefix: '/ximena/',
+        // pathPrefix: '/ximena/',
         templateFormats: ['md', 'njk'],
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
