@@ -3,7 +3,7 @@ title: Consistency is Key
 compartir: true
 
 tags:
-    - stub
+  - stub
 description: "Show up. Do the work. Be consistent. Things I'm not good at."
 ---
 

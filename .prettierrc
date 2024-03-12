@@ -1,24 +1,24 @@
 {
-    "$schema": "https://json.schemastore.org/prettierrc.json",
-    "printWidth": 80,
-    "tabWidth": 2,
-    "useTabs": false,
-    "semi": false,
-    "singleQuote": true,
-    "quoteProps": "consistent",
-    "trailingComma": "all",
-    "bracketSpacing": true,
-    "arrowParens": "always",
-    "proseWrap": "preserve",
-    "endOfLine": "lf",
-    "embeddedLanguageFormatting": "auto",
-    "singleAttributePerLine": false,
-    "overrides": [
-        {
-            "files": ".prettierrc",
-            "options": {
-                "parser": "json"
-            }
-        }
-    ]
+  "$schema": "https://json.schemastore.org/prettierrc.json",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "proseWrap": "preserve",
+  "endOfLine": "lf",
+  "embeddedLanguageFormatting": "auto",
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }

@@ -25,16 +25,16 @@ It's official language is Spanish.
 
 ## Endemic Species
 
--   [Rhinoceros iguana](https://en.wikipedia.org/wiki/Rhinoceros_iguana)
--   [Hispaniolan solenodon](https://en.wikipedia.org/wiki/Hispaniolan_solenodon)
--   [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae)
+- [Rhinoceros iguana](https://en.wikipedia.org/wiki/Rhinoceros_iguana)
+- [Hispaniolan solenodon](https://en.wikipedia.org/wiki/Hispaniolan_solenodon)
+- [Mabuya hispaniolae](https://en.wikipedia.org/wiki/Mabuya_hispaniolae)
 
 ## History
 
 ### Lots of Firsts
 
--   First permanent European settlement in the Americas.
--   First seat of Spanish colonial rule in the "New World".
--   First Cathedral in all of the Americas.
--   First Castle in all of the Americas.
--   First Monastery in all of the Americas.
+- First permanent European settlement in the Americas.
+- First seat of Spanish colonial rule in the "New World".
+- First Cathedral in all of the Americas.
+- First Castle in all of the Americas.
+- First Monastery in all of the Americas.
