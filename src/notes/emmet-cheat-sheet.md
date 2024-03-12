@@ -56,7 +56,8 @@ div + p + bq
 div+div>p>span+em
 ```
 
-```html<div></div>
+```html
+<div></div>
 <div>
     <p><span></span><em></em></p>
 </div>
@@ -66,7 +67,8 @@ div+div>p>span+em
 div+div>p>span+em^bq
 ```
 
-```html<div></div>
+```html
+<div></div>
 <div>
     <p><span></span><em></em></p>
     <blockquote></blockquote>
@@ -199,7 +201,8 @@ ul>li.item$$$*5
 ul>li.item$@-*5
 ```
 
-```html<ul>
+```html
+<ul>
     <li class="item5"></li>
     <li class="item4"></li>
     <li class="item3"></li>
@@ -212,7 +215,8 @@ ul>li.item$@-*5
 ul>li.item$@3*5
 ```
 
-```html<ul>
+```html
+<ul>
     <li class="item3"></li>
     <li class="item4"></li>
     <li class="item5"></li>

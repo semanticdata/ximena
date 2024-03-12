@@ -40,6 +40,7 @@
     },
     "dependencies": {
         "eleventy-sass": "^2.2.4",
+        "markdown-it-prism": "^2.3.0",
         "npm-run-all": "^4.1.5",
         "prettier": "^3.2.5",
         "rimraf": "^5.0.5"
