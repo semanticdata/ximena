@@ -10,36 +10,37 @@
 
 ## Contents
 
--   [ximena](#ximena)
-    -   [Contents](#contents)
-    -   [Description](#description)
-    -   [Getting Started](#getting-started)
-        -   [Prerequuisites](#prerequuisites)
-    -   [Usage](#usage)
-    -   [Useful Commands](#useful-commands)
-    -   [Changelog](#changelog)
-    -   [Roadmap](#roadmap)
-    -   [Plugins](#plugins)
-    -   [Acknowledgments](#acknowledgments)
-    -   [© License](#-license)
+- [ximena](#ximena)
+  - [Contents](#contents)
+  - [Description](#description)
+  - [Getting Started](#getting-started)
+    - [Prerequuisites](#prerequuisites)
+  - [Usage](#usage)
+  - [Useful Commands](#useful-commands)
+  - [Changelog](#changelog)
+  - [Roadmap](#roadmap)
+  - [Acknowledgments](#acknowledgments)
+  - [© License](#-license)
 
 ## Description
 
 Full description of the project:
 
--   What is it about?
--   What does it do?
--   Why is it useful?
--   What problem does it solve?
--   Who is it for?
+- What is it about?
+- What does it do?
+- Why is it useful?
+- What problem does it solve?
+- Who is it for?
+
+The site is deployed to [GitHub Pages](https://semanticdata.github.io/ximena/), and [Vercel](https://ximena-zeta.vercel.app/).
 
 ## Getting Started
 
 ### Prerequuisites
 
--   You need this
--   And you need this
--   Oh, and don't forget this
+- You need this
+- And you need this
+- Oh, and don't forget this
 
 ## Usage
 
@@ -70,44 +71,41 @@ For more details take a look at [package.json](package.json).
 
 We use [Semantic Versioning](https://semver.org/) for releases.
 
--   0.1.0
-    -   First release
-    -   CHANGE: Rename `foo()` to `bar()`
-    -   FIX: Crash when calling `pleasedonotcrash()`
--   0.0.1
-    -   Work in progress
+- 0.1.0
+  - First release
+  - CHANGE: Rename `foo()` to `bar()`
+  - FIX: Crash when calling `pleasedonotcrash()`
+- 0.0.1
+  - Work in progress
 
 ## Roadmap
 
--   [x] Wikilinks
--   [x] [TailwindCSS](https://tailwindcss.com/)
--   [x] [daisyUI](https://daisyui.com/)
--   [x] Blog section
--   [x] Notes section
--   [x] Setup Prettier
--   [x] CSS/Sass post-processing with [PostCSS](https://postcss.org/) (incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano))
--   [ ] RSS feed
--   [ ] Dark mode
--   [ ] Theme toggle
--   [ ] Backlinks
--   [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
--   [ ] Syntax highlighting
--   [ ] Sitemap
--   [ ] robots.txt
-
-## Plugins
-
--   [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
+- [x] Wikilinks
+- [x] [TailwindCSS](https://tailwindcss.com/)
+- [x] [Sass](https://sass-lang.com/) workflow. Independent of TailwindCSS.
+- [x] [daisyUI](https://daisyui.com/)
+- [x] Blog section
+- [x] Notes section
+- [x] Setup Prettier
+- [x] CSS/Sass post-processing with [PostCSS](https://postcss.org/) (incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano))
+- [ ] RSS feed
+- [ ] Dark mode
+- [ ] Theme toggle
+- [ ] Backlinks
+- [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
+- [ ] Syntax highlighting
+- [ ] Sitemap
+- [ ] robots.txt
 
 ## Acknowledgments
 
 Thanks to these amazing people:
 
--   Person A – [Website]
+- Person A – [Website]
 
 Inspirations:
 
--   Project A – [Repository]
+- Project A – [Repository]
 
 ## © License
 
