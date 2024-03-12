@@ -40,6 +40,7 @@
     />
     <link rel="stylesheet" href="{{ '/assets/css/tailwindy.css' | url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
+    <link nonce="rAnd0m123" rel="preload" href="{{ '/assets/fonts/Inter.woff2' | url }}" as="font" type="font/woff2" crossorigin/>
     <script nonce="rAnd0m123">
       if (
         localStorage.getItem("color-theme") === "dark" ||
@@ -59,6 +60,10 @@
         <article class="prose prose-article">{{ content | safe }}</article>
       </div>
     </main>
-    <script nonce="rAnd0m123" type="module" src="{{ '/assets/js/script.js' | url }}"></script>
+    <script
+      nonce="rAnd0m123"
+      type="module"
+      src="{{ '/assets/js/script.js' | url }}"
+    ></script>
   </body>
 </html>
