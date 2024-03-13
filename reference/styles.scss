@@ -48,7 +48,14 @@ img {
 .nav-search {
   margin-top: 2rem;
   display: block;
-  background-image: linear-gradient(to right, #3d4251, #3b3f4c, #393d46, #373a41, #35373c);
+  background-image: linear-gradient(
+    to right,
+    #3d4251,
+    #3b3f4c,
+    #393d46,
+    #373a41,
+    #35373c
+  );
   width: 100%;
   position: relative;
   border-radius: 10px;

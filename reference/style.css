@@ -5,7 +5,7 @@
   --background: #efefef;
   --text-color: #141414;
 
-  --color-mode: "dark";
+  --color-mode: 'dark';
   --color-dark: #141414;
   --color-dark-alpha: rgba(0, 0, 0, 0.1);
   --color-light: #efefef;
@@ -102,7 +102,7 @@ table {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-mode: "dark";
+    --color-mode: 'dark';
   }
 
   :root:not([data-user-color-scheme]) {
@@ -116,7 +116,7 @@ table {
   }
 }
 
-[data-user-color-scheme="dark"] {
+[data-user-color-scheme='dark'] {
   --background: var(--color-dark);
   --text-color: var(--color-light);
   --button-icon: var(--icon-sun);
@@ -234,7 +234,7 @@ h5 {
   outline: 0.2rem solid black;
 }
 .backlink__preview::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   background: linear-gradient(transparent, var(--background));
@@ -312,7 +312,9 @@ article > * + * {
   border: none;
   font: inherit;
   font-size: var(--step-0);
-  transition: background 500ms ease-in-out, color 200ms ease;
+  transition:
+    background 500ms ease-in-out,
+    color 200ms ease;
   cursor: pointer;
 }
 
@@ -342,7 +344,9 @@ blockquote {
   position: relative;
   text-align: center;
   margin: 2rem 1.5rem;
-  transition: background 400ms ease-in-out, color 300ms ease;
+  transition:
+    background 400ms ease-in-out,
+    color 300ms ease;
   & p {
     margin: 1rem 0.1rem;
     padding: 1em;
@@ -350,7 +354,7 @@ blockquote {
 }
 
 blockquote::before {
-  content: "“";
+  content: '“';
   color: var(--accent);
   font-size: var(--step-5);
   position: absolute;
@@ -360,7 +364,7 @@ blockquote::before {
 
 blockquote::after {
   font-family: Bitter;
-  content: "”";
+  content: '”';
   color: var(--accent);
   font-size: var(--step-5);
   display: inline;
@@ -511,7 +515,7 @@ pre code {
   border-color: var(--border-color);
 }
 
-[aria-current="page"] {
+[aria-current='page'] {
   background: var(--accent);
 }
 
