@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-slate-50 dark:bg-custom-1">
+<html lang="en" class="bg-slate-50 dark:bg-slate-900">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -40,7 +40,10 @@
     />
     <link rel="stylesheet" href="{{ '/assets/css/tailwindy.css' | url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/prism-prism-tomorrow.css' | url }}" />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/prism-prism-tomorrow.css' | url }}"
+    />
     <script nonce="rAnd0m123">
       if (
         localStorage.getItem("color-theme") === "dark" ||
@@ -56,7 +59,7 @@
 
   <body>
     <div class="max-w-2xl mx-auto">
-      <header class="px-4 my-6">
+      <header class="inline-flex px-4 my-6">
         <h1 class="text-2xl font-bold underline">
           <a href="{{ '/' | url }}">{{metadata.title}}</a>
         </h1>
@@ -64,7 +67,7 @@
       </header>
 
       <main class="px-4 my-6">
-        <article class="mt-12 prose prose-article">
+        <article class="mt-12 prose prose-slate dark:prose-p:text-slate-50 prose-p:text-slate-900 dark:prose-headings:text-slate-50 prose-headings:text-slate-900 prose-li:text-slate-900 dark:prose-li:text-slate-50">
           {{ content | safe }}
         </article>
       </main>
@@ -119,7 +122,11 @@
           }
         })
       </script>
-      <script nonce="rAnd0m123" type="module" src="{{ '/assets/js/script.js' | url }}"></script>
+      <script
+        nonce="rAnd0m123"
+        type="module"
+        src="{{ '/assets/js/script.js' | url }}"
+      ></script>
     </div>
   </body>
 </html>

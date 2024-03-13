@@ -4,8 +4,8 @@
   --txt-color: #1a1a1a;
   --txt-color-dark: #fff;
   --primaryColor: #7134ff;
-  // --font-family: Inter, Georgia, 'Times New Roman', serif;
-  --font-family: Inter, serif;
+  // --font-family: Georgia, 'Times New Roman', serif;
+  --font-family: Inter, Georgia, serif;
   --container-width: 50rem;
 }
 
@@ -37,11 +37,6 @@ html {
   color: var(--txt-color-dark);
 }
 
-// html.dark {
-// 	background: var(--bg-color-dark);
-// 	color: var(--txt-color-dark);
-// }
-
 body {
   // background: var(--bg-color);
   // color: var(--txt-color);
@@ -65,11 +60,11 @@ footer {
 //   padding: 1rem clamp(var(--spacing-small), 3.75vw, var(--spacing-medium));
 // }
 
-header,
-main {
-  display: flex;
-  flex-direction: column;
-  max-width: var(--container-width);
-  margin: 0 auto;
-  padding: 1rem;
-}
+// header,
+// main {
+//   display: flex;
+//   flex-direction: column;
+//   max-width: var(--container-width);
+//   margin: 0 auto;
+//   padding: 1rem;
+// }
