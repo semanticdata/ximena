@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
 module.exports = {
-  content: ['./src/**/*.{njk,md}', './src/**/*.svg'],
+  content: ['./src/**/*.{html,njk,md,js}', './src/**/*.svg'],
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   darkMode: 'selector',
   theme: {
