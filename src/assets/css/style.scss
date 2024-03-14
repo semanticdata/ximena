@@ -1,13 +1,12 @@
-:root {
-  --bg-color: #fff;
-  --bg-color-dark: #000;
-  --txt-color: #1a1a1a;
-  --txt-color-dark: #fff;
-  --primaryColor: #7134ff;
-  // --font-family: Georgia, 'Times New Roman', serif;
-  --font-family: Inter, Georgia, serif;
-  --container-width: 50rem;
-}
+// :root {
+//   --bg-color: #fff;
+//   --bg-color-dark: #000;
+//   --txt-color: #1a1a1a;
+//   --txt-color-dark: #fff;
+//   --primaryColor: #7134ff;
+//   --font-family: Inter, Georgia, serif;
+//   --container-width: 50rem;
+// }
 
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
@@ -34,25 +33,25 @@ html {
   scroll-behavior: smooth;
 }
 
-::selection {
-  background: var(--primaryColor);
-  color: var(--txt-color-dark);
-}
+// ::selection {
+//   background: var(--primaryColor);
+//   color: var(--txt-color-dark);
+// }
 
-body {
-  // background: var(--bg-color);
-  // color: var(--txt-color);
-  font-family: var(--font-family);
-  font-size: large;
-  line-height: 1.5;
-  overflow-x: hidden;
-  height: calc(100vh - 1.5rem);
-}
+// body {
+//   background: var(--bg-color);
+//   color: var(--txt-color);
+//   font-family: var(--font-family);
+//   line-height: 1.5;
+//   font-size: large;
+//   overflow-x: hidden;
+//   height: calc(100vh - 1.5rem);
+// }
 
-footer {
-  margin-top: auto;
-  text-align: center;
-}
+// footer {
+//   margin-top: auto;
+//   text-align: center;
+// }
 
 // .container {
 //   width: 100%;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-slate-50 dark:bg-slate-900">
+<html lang="en" class="bg-slate-50 dark:bg-slate-900 text-slate-950 dark:text-slate-50">
   <head>
     {% include "meta.njk" %} {% include "head-script.njk" %}
   </head>
@@ -7,7 +7,7 @@
   <body>
     <main class="min-h-screen hero">
       <div class="hero-content">
-        <article class="prose">{{ content | safe }}</article>
+        <article class="prose dark:prose-invert">{{ content | safe }}</article>
       </div>
     </main>
     {% include "darkModeToggle.njk" %}
