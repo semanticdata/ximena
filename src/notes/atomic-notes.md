@@ -4,7 +4,7 @@ tags:
   - digital-gardening
 compartir: true
 
-description: 'Single, self-contained notes that capture a single idea or piece of information.'
+description: "Single, self-contained notes that capture a single idea or piece of information."
 ---
 
 # Atomic Notes

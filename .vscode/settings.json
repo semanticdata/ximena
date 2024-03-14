@@ -9,6 +9,9 @@
       "other": "on"
     }
   },
+  "files.exclude": {
+    "**/node_modules": false
+  },
   "files.watcherExclude": {
     "**/node_modules": true
   },

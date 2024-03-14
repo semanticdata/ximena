@@ -2,7 +2,7 @@
 title: Svelte
 compartir: true
 
-description: 'Modern JavaScript Framework for building web applications.'
+description: "Modern JavaScript Framework for building web applications."
 ---
 
 # Svelte

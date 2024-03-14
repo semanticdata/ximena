@@ -2,7 +2,7 @@
 title: Zola
 
 compartir: true
-description: 'Fast static site generator in a single binary with everything built-in.'
+description: "Fast static site generator in a single binary with everything built-in."
 ---
 
 # Zola

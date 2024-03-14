@@ -4,7 +4,7 @@ compartir: true
 
 tags:
   - list
-descriptive: 'These are people and projects have resonated with me. Inspiring me to do things I would otherwise not do.'
+descriptive: "These are people and projects have resonated with me. Inspiring me to do things I would otherwise not do."
 ---
 
 # What Inspires Me

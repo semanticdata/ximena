@@ -5,7 +5,7 @@
   --background: #efefef;
   --text-color: #141414;
 
-  --color-mode: 'dark';
+  --color-mode: "dark";
   --color-dark: #141414;
   --color-dark-alpha: rgba(0, 0, 0, 0.1);
   --color-light: #efefef;
@@ -102,7 +102,7 @@ table {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-mode: 'dark';
+    --color-mode: "dark";
   }
 
   :root:not([data-user-color-scheme]) {
@@ -116,7 +116,7 @@ table {
   }
 }
 
-[data-user-color-scheme='dark'] {
+[data-user-color-scheme="dark"] {
   --background: var(--color-dark);
   --text-color: var(--color-light);
   --button-icon: var(--icon-sun);
@@ -234,7 +234,7 @@ h5 {
   outline: 0.2rem solid black;
 }
 .backlink__preview::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   background: linear-gradient(transparent, var(--background));
@@ -354,7 +354,7 @@ blockquote {
 }
 
 blockquote::before {
-  content: '“';
+  content: "“";
   color: var(--accent);
   font-size: var(--step-5);
   position: absolute;
@@ -364,7 +364,7 @@ blockquote::before {
 
 blockquote::after {
   font-family: Bitter;
-  content: '”';
+  content: "”";
   color: var(--accent);
   font-size: var(--step-5);
   display: inline;
@@ -515,7 +515,7 @@ pre code {
   border-color: var(--border-color);
 }
 
-[aria-current='page'] {
+[aria-current="page"] {
   background: var(--accent);
 }
 

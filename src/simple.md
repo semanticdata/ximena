@@ -7,14 +7,11 @@ title: Simple
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-**Bold**, _Italic_, _**Both**_.
-**Bold**, _Italic_, ~~Strikethrough~~, ~~_**ALL OF THEM**_~~.
+Text can be **bold**, _italic_, or ~~strikethrough~~. **Bold**, _Italic_, _**Both**_. **Bold**, _Italic_, ~~Strikethrough~~, ~~_**ALL OF THEM**_~~.
 
 You can [link](https://example.dom/) to external pages. and other internal [[markdown|links]].
 
-> This is a blockquote
-> with several lines
+> This is a blockquote with several lines
 
 ## Lists
 
@@ -48,7 +45,7 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
+  dateformat.i18n = require("./lang/" + l)
   return true
 }
 ```

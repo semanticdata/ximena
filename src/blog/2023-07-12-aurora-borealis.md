@@ -1,7 +1,7 @@
 ---
-title: 'Aurora Borealis Sighting'
+title: "Aurora Borealis Sighting"
 date: 2023-07-12
-description: 'Wednesday, July 12th, 2023, was supposed to feature high solar activity, allowing for an incredibly large area of the northern United States to witness the Auroras as long as the light pollution was low. Unfortunately, this forecast did not come to pass.'
+description: "Wednesday, July 12th, 2023, was supposed to feature high solar activity, allowing for an incredibly large area of the northern United States to witness the Auroras as long as the light pollution was low. Unfortunately, this forecast did not come to pass."
 ---
 
 Wednesday, July 12th, 2023, was supposed to feature high solar activity, allowing for an incredibly large area of the northern United States to witness the Auroras as long as the light pollution was low.

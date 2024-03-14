@@ -6,7 +6,7 @@ tags:
 compartir: true
 
 enableToc: true
-description: 'Learning how to write with brevity (short-form), how to write long-form, how to use gesticulation.'
+description: "Learning how to write with brevity (short-form), how to write long-form, how to use gesticulation."
 ---
 
 # Writing with Outlines

@@ -1,60 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="bg-slate-50 dark:bg-slate-900">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{metadata.title}}{% if title %} - {{title}} {% endif %}</title>
-    <meta
-      name="description"
-      content="{% if description %}
-        {{description}}
-      {% else %}
-        {{metadata.description}}
-      {% endif %}"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}"
-    />
-    <link
-      rel="manifest"
-      href="{{ '/assets/images/favicon/site.webmanifest' | url }}"
-    />
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="{{ '/assets/images/favicon/favicon.ico' | url }}"
-    />
-    <link rel="stylesheet" href="{{ '/assets/css/tailwindy.css' | url }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}" />
-    <link
-      rel="stylesheet"
-      href="{{ '/assets/css/prism-prism-tomorrow.css' | url }}"
-    />
-    <script nonce="rAnd0m123">
-      if (
-        localStorage.getItem("color-theme") === "dark" ||
-        (!("color-theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark")
-      } else {
-        document.documentElement.classList.remove("dark")
-      }
-    </script>
+    {% include "meta.njk" %} {% include "head-script.njk" %}
   </head>
 
   <body>
@@ -67,61 +14,18 @@
       </header>
 
       <main class="px-4 my-6">
-        <article class="mt-12 prose prose-slate dark:prose-p:text-slate-50 prose-p:text-slate-900 dark:prose-headings:text-slate-50 prose-headings:text-slate-900 prose-li:text-slate-900 dark:prose-li:text-slate-50">
+        <article
+          {#
+          class="mt-12 prose prose-slate dark:prose-p:text-slate-50 prose-p:text-slate-900 dark:prose-headings:text-slate-50 prose-headings:text-slate-900 prose-li:text-slate-900 dark:prose-li:text-slate-50"
+          #}
+          class="mt-12 prose dark:prose-invert"
+        >
           {{ content | safe }}
         </article>
       </main>
 
       {# {% include "footer.njk" %} #}
 
-      <script nonce="rAnd0m123">
-        var themeToggleDarkIcon = document.getElementById(
-          "theme-toggle-dark-icon"
-        )
-        var themeToggleLightIcon = document.getElementById(
-          "theme-toggle-light-icon"
-        )
-
-        // Change the icons inside the button based on previous settings
-        if (
-          localStorage.getItem("color-theme") === "dark" ||
-          (!("color-theme" in localStorage) &&
-            window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ) {
-          themeToggleLightIcon.classList.remove("hidden")
-        } else {
-          themeToggleDarkIcon.classList.remove("hidden")
-        }
-
-        var themeToggleBtn = document.getElementById("theme-toggle")
-
-        themeToggleBtn.addEventListener("click", function () {
-          // toggle icons inside button
-          themeToggleDarkIcon.classList.toggle("hidden")
-          themeToggleLightIcon.classList.toggle("hidden")
-
-          // if set via local storage previously
-          if (localStorage.getItem("color-theme")) {
-            if (localStorage.getItem("color-theme") === "light") {
-              document.documentElement.classList.add("dark")
-              localStorage.setItem("color-theme", "dark")
-            } else {
-              document.documentElement.classList.remove("dark")
-              localStorage.setItem("color-theme", "light")
-            }
-
-            // if NOT set via local storage previously
-          } else {
-            if (document.documentElement.classList.contains("dark")) {
-              document.documentElement.classList.remove("dark")
-              localStorage.setItem("color-theme", "light")
-            } else {
-              document.documentElement.classList.add("dark")
-              localStorage.setItem("color-theme", "dark")
-            }
-          }
-        })
-      </script>
       <script
         nonce="rAnd0m123"
         type="module"

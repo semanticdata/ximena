@@ -1,7 +1,7 @@
 ---
-title: 'Blogging to Tame the Monkey Mind'
+title: "Blogging to Tame the Monkey Mind"
 date: 2023-04-12
-description: 'The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps me keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well.'
+description: "The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps me keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well."
 ---
 
 The term monkey mind is a Buddhist term meaning: restless, unsettled, incontrollable. The original analogy comes from describing the human mind as being full of drunken monkeys, constantly screeching, fighting, distracting, and creating general mental chaos. I’ll go over what helps _me_ keep the monkeys at bay. I hope some of this resonates with you and your monkeys as well.

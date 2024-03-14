@@ -2,7 +2,7 @@
 title: Markup Language
 compartir: true
 
-description: 'A markup language is a system for annotating text to define the structure, formatting, and presentation of documents on the internet.'
+description: "A markup language is a system for annotating text to define the structure, formatting, and presentation of documents on the internet."
 ---
 
 # Markup Language

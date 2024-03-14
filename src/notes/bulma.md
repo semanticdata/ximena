@@ -2,7 +2,7 @@
 title: Bulma
 compartir: true
 
-description: 'Free, open source CSS framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.'
+description: "Free, open source CSS framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces."
 ---
 
 # Bulma

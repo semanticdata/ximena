@@ -3,7 +3,7 @@ title: Arpeggio
 tags:
   - music
 compartir: true
-description: 'Type of broken chord in which the notes that compose a chord are individually sounded in a progressive rising or descending order.'
+description: "Type of broken chord in which the notes that compose a chord are individually sounded in a progressive rising or descending order."
 ---
 
 # Arpeggio

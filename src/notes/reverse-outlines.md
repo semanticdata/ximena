@@ -3,7 +3,7 @@ title: Reverse Outlines
 
 source: https://writing.wisc.edu/handbook/process/reverseoutlines/
 compartir: true
-description: 'Often used by writers to check their work.'
+description: "Often used by writers to check their work."
 ---
 
 # Reverse Outlines

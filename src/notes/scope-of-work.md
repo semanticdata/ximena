@@ -2,7 +2,7 @@
 title: Scope of Work
 compartir: true
 
-description: 'Descriptive document or working agreement that contains all information regarding the size of a project, the goals a team should accomplish by the end of the project and steps required to complete the project.'
+description: "Descriptive document or working agreement that contains all information regarding the size of a project, the goals a team should accomplish by the end of the project and steps required to complete the project."
 ---
 
 # Scope of Work

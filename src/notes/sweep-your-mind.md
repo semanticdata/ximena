@@ -4,7 +4,7 @@ tags:
   - digital-gardening
 compartir: true
 
-description: 'These notes make it possible to offload a massive amount of information while demonstrating perfect recall when needed.'
+description: "These notes make it possible to offload a massive amount of information while demonstrating perfect recall when needed."
 ---
 
 # Sweep Your Mind

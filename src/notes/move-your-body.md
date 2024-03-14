@@ -4,7 +4,7 @@ compartir: true
 
 tags:
   - stub
-description: 'Move your body every day.'
+description: "Move your body every day."
 ---
 
 # Move Your Body

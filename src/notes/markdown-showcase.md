@@ -32,9 +32,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Text Formatting
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-**Bold**, _Italic_, _**Both**_.
-**Bold**, _Italic_, ~~Strikethrough~~, ~~_**ALL OF THEM**_~~.
+Text can be **bold**, _italic_, or ~~strikethrough~~. **Bold**, _Italic_, _**Both**_. **Bold**, _Italic_, ~~Strikethrough~~, ~~_**ALL OF THEM**_~~.
 
 ## Links
 
@@ -44,8 +42,7 @@ You can [link](https://example.dom/) to external pages. and other internal [[mar
 
 ### Simple Example
 
-> This is a blockquote
-> with several lines
+> This is a blockquote with several lines
 
 ### Formatted Example
 
@@ -54,8 +51,7 @@ You can [link](https://example.dom/) to external pages. and other internal [[mar
 > 1. This is the first list item.
 > 2. This is the second list item.
 >
-> Here's some example code:
-> `Markdown.generate();`
+> Here's some example code: `Markdown.generate();`
 
 ## Lists
 
@@ -117,7 +113,7 @@ Let us use some `inline code` and check out how it `looks`. Here's some `more`.
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
+  dateformat.i18n = require("./lang/" + l)
   return true
 }
 ```
@@ -133,18 +129,18 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 | ok           |   good `oreos`    |        hmm |
 | ok           | good `zoute` drop |       yumm |
 
-| Title 1               | Title 2               | Title 3               | Title 4               |
-| --------------------- | --------------------- | --------------------- | --------------------- |
-| lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit |
+| Title 1 | Title 2 | Title 3 | Title 4 |
+| --- | --- | --- | --- |
+| lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit |
 | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 
 ### Inline Markdown Within Tables
 
-| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp;                | Table  |
-| ------------------------ | -------------------------- | ----------------------------------- | ------ |
-| _italics_                | **bold**                   | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
+| Inline&nbsp;&nbsp;&nbsp; | Markdown&nbsp;&nbsp;&nbsp; | In&nbsp;&nbsp;&nbsp; | Table |
+| --- | --- | --- | --- |
+| _italics_ | **bold** | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code` |
 
 ## Horizontal Rule
 

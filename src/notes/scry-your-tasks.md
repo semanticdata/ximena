@@ -4,7 +4,7 @@ compartir: true
 
 tags:
   - stub
-description: 'To scry is to see or predict the future by means of a crystal ball.'
+description: "To scry is to see or predict the future by means of a crystal ball."
 ---
 
 # Scry Your Tasks

@@ -4,7 +4,7 @@ compartir: true
 
 tags:
   - stub
-description: 'Convex polyhedron with 12 congruent rhombic faces.'
+description: "Convex polyhedron with 12 congruent rhombic faces."
 ---
 
 # Rhombic Dodecahedron
