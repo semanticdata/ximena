@@ -1,8 +1,9 @@
 {
+  "extensions.ignoreRecommendations": true,
   "editor.wrappingIndent": "indent",
-  "editor.overviewRulerBorder": false,
   "workbench.colorTheme": "Aura Dark",
   "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "editor.quickSuggestions": {
       "comments": "on",
       "strings": "on",
@@ -16,7 +17,8 @@
     "**/node_modules": true
   },
   "files.associations": {
-    "*.html": "html"
+    "*.html": "html",
+    "*.yml": "yaml"
   },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/pimentma/GitHub/miguelpimentel.do/.github/workflows/deploy.yml"
