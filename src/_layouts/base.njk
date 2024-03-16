@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-slate-50 dark:bg-slate-900 text-slate-950 dark:text-slate-50">
+<html
+  lang="en"
+  class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-50"
+>
   <head>
     {% include "meta.njk" %} {% include "head-script.njk" %}
   </head>
@@ -13,15 +16,10 @@
         {% include "darkModeToggle.njk" %}
       </header>
 
-      <main class="px-4 my-6">
-        <article
-          {#
-          class="mt-12 prose prose-slate dark:prose-p:text-slate-50 prose-p:text-slate-900 dark:prose-headings:text-slate-50 prose-headings:text-slate-900 prose-li:text-slate-900 dark:prose-li:text-slate-50"
-          #}
-          class="mt-10 prose prose-slate dark:prose-invert bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-50"
-        >
-          {{ content | safe }}
-        </article>
+      <main
+        class="px-4 my-6 prose dark:prose-invert prose-headings:text-slate-800 dark:prose-headings:text-slate-50 prose-p:text-slate-800 dark:prose-p:text-slate-50 prose-a:text-violet-900 dark:prose-a:text-slate-50 prose-blockquote:text-slate-800 dark:prose-blockquote:text-slate-50 prose-strong:text-slate-800 dark:prose-strong:text-slate-50 prose-li:text-slate-800 dark:prose-li:text-slate-50 prose-figure:text-slate-800 dark:prose-figure:text-slate-50 prose-figcaption:text-slate-800 dark:prose-figcaption:text-slate-50 prose-em:text-slate-800 dark:prose-em:text-slate-50 prose-code:text-slate-800 dark:prose-code:text-slate-50 prose-pre:text-slate-800 dark:prose-pre:text-slate-50 prose-ol:text-slate-800 dark:prose-ol:text-slate-50 prose-ul:text-slate-800 dark:prose-ul:text-slate-50 prose-table:text-slate-800 dark:prose-table:text-slate-50 prose-thead:text-slate-800 dark:prose-thead:text-slate-50 prose-tr:text-slate-800 dark:prose-tr:text-slate-50 prose-th:text-slate-800 dark:prose-th:text-slate-50 prose-td:text-slate-800 dark:prose-td:text-slate-50 prose-img:text-slate-800 dark:prose-img:text-slate-50 prose-video:text-slate-800 dark:prose-video:text-slate-50 prose-hr:text-slate-800 prose-pre:bg-slate-200 dark:prose-pre:bg-slate-800 prose-blockquote:border-slate-500 marker:text-slate-800 dark:marker:text-slate-50 prose-a:font-bold"
+      >
+        {{ content | safe }}
       </main>
 
       {# {% include "footer.njk" %} #}

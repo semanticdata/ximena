@@ -8,7 +8,7 @@
   "quoteProps": "consistent",
   "trailingComma": "all",
   "bracketSpacing": false,
-  "bracketSameLine": true,
+  "bracketSameLine": false,
   "arrowParens": "always",
   "proseWrap": "never",
   "endOfLine": "lf",
