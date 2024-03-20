@@ -1,25 +1,21 @@
-# 🌊 ximena ☀⛱
-
-> A saturday afternoon at the beach.
+# 🐞 ximena
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/ximena) ![repository size](https://img.shields.io/github/repo-size/semanticdata/ximena) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/ximena) ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena) ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
 ## 📑 Table of Contents
 
-- [� ximena ☀⛱](#-ximena-)
+- [🐞 ximena](#-ximena)
   - [📑 Table of Contents](#-table-of-contents)
-  - [Description](#description)
+  - [📄 Description](#description)
   - [🚀 Getting Started](#-getting-started)
-    - [Prerequisites](#prerequisites)
   - [Usage](#usage)
   - [Useful Commands](#useful-commands)
   - [Changelog](#changelog)
   - [🗺 Roadmap](#-roadmap)
-    - [❓ The Maybe List](#-the-maybe-list)
-  - [🧡 Acknowledgments](#-acknowledgments)
+  - [💜 Acknowledgments](#-acknowledgments)
   - [© License](#-license)
 
-## Description
+## 📄 Description
 
 Full description of the project:
 
@@ -30,50 +26,6 @@ Full description of the project:
 - Who is it for?
 
 The site is deployed to [GitHub Pages](https://semanticdata.github.io/ximena/), and [Vercel](https://ximena-zeta.vercel.app/).
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- You need this
-- And you need this
-- Oh, and don't forget this
-
-## Usage
-
-Instructions for how to configure, run, and use the project. For example, you can include the commands needed to install and start the development environment or any other useful and important commands. Screenshots can be included as well.
-
-## Useful Commands
-
-```sh
-# Install dependencies
-npm install
-
-# Update dependencies
-npm update
-
-# Start local dev server
-npm start
-
-# Check formatting w/ Prettier
-npm run check
-
-# Fix formatting w/ Prettier
-npm run format
-```
-
-For more details take a look at [package.json](package.json).
-
-## Changelog
-
-We use [Semantic Versioning](https://semver.org/) for releases.
-
-- 0.1.0
-  - First release
-  - CHANGE: Rename `foo()` to `bar()`
-  - FIX: Crash when calling `pleasedonotcrash()`
-- 0.0.1
-  - Work in progress
 
 ## 🗺 Roadmap
 
@@ -108,15 +60,9 @@ We use [Semantic Versioning](https://semver.org/) for releases.
 - Notes explorer
 - Recent notes
 
-## 🧡 Acknowledgments
+## 💜 Acknowledgments
 
-Thanks to these amazing people:
-
-- Person A – [Website]
-
-Inspirations:
-
-- Project A – [Repository]
+Placeholder.
 
 ## © License
 
