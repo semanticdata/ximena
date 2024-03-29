@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all --parallel clean dev:*",
     "build": "rimraf _site && npx @11ty/eleventy && npx tailwindcss -i ./public/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css",
-    "gh-pages": "npx @11ty/eleventy --pathprefix '/ximena/' && npx tailwindcss -i ./public/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css",
+    "build-gh-pages": "npx @11ty/eleventy --pathprefix '/ximena/' && npx tailwindcss -i ./public/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css",
     "vercel": "npx @11ty/eleventy --pathprefix '/' && npx tailwindcss -i ./public/assets/css/tailwind.css -o ./_site/assets/css/tailwindy.css",
     "check": "npx prettier . --check",
     "format": "npx prettier . --write",

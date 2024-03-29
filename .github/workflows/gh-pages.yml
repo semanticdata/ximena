@@ -1,29 +1,26 @@
-# If you’d like to deploy this to GitHub pages, rename this
-# file to `gh-pages.yml` and read the mini-tutorial on
-# https://www.11ty.dev/docs/deployment/#deploy-an-eleventy-project-to-github-pages
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages (peaceiris)
 
 on:
   workflow_dispatch:
+  # pull_request:
   # push:
   #   branches:
   #     - main
-  # pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: 18
 
       - name: Cache npm
         uses: actions/cache@v3
@@ -38,7 +35,7 @@ jobs:
           key: ${{ runner.os }}-eleventy-fetch-cache
 
       - run: npm install
-      - run: npm run build-ghpages
+      - run: npm run build-gh-pages
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
