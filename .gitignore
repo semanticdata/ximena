@@ -6,4 +6,3 @@ node_modules
 .netlify
 *.log
 logs
-npm-debug.log*

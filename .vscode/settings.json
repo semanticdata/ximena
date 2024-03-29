@@ -1,7 +1,7 @@
 {
   "extensions.ignoreRecommendations": true,
   "editor.wrappingIndent": "indent",
-  "workbench.colorTheme": "Aura Dark",
+  // "workbench.colorTheme": "Aura Dark",
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
     "editor.quickSuggestions": {

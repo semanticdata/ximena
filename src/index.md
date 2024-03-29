@@ -1,7 +1,6 @@
 ---
 layout: home
 title: Homepage
-# title: "Hi, I'm Miguel"
 ---
 
 # {{title}}
@@ -16,6 +15,6 @@ Read more [about me](about/), checkout my [journal](journal/), visit my [uses](u
 
 Thanks for visiting. Tell your dog I said "Hi!".
 
-## Links
+## Helpful Links
 
-[Markdown](markdown/) - [Simple](simple/) - [Projects](projects/) - [Blog](blog/) - [Notes](notes/) - [Kitchen Sink](kitchen-sink/)
+[Markdown](markdown/) - [Simple](simple/) - [Blog](blog/) - [Notes](notes/) - [Kitchen Sink](kitchen-sink/)

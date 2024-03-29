@@ -2,30 +2,42 @@
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/ximena) ![repository size](https://img.shields.io/github/repo-size/semanticdata/ximena) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/ximena) ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena) ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-## 📑 Table of Contents
+A simple example of using [TailwindCSS](https://tailwindcss.com/), and [DaisyUI](https://daisyui.com/) with [Eleventy](https://11ty.dev/).
 
-- [🐞 ximena](#-ximena)
-  - [📑 Table of Contents](#-table-of-contents)
-  - [📄 Description](#description)
-  - [🚀 Getting Started](#-getting-started)
-  - [Usage](#usage)
-  - [Useful Commands](#useful-commands)
-  - [Changelog](#changelog)
-  - [🗺 Roadmap](#-roadmap)
-  - [💜 Acknowledgments](#-acknowledgments)
-  - [© License](#-license)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://ximena-zeta.vercel.app/) [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/ximena/)
 
-## 📄 Description
+## ⚡ Quick start
 
-Full description of the project:
+**1. Clone repo**
 
-- What is it about?
-- What does it do?
-- Why is it useful?
-- What problem does it solve?
-- Who is it for?
+```bash
+git clone https://github.com/semanticdata/ximena.git
+```
 
-The site is deployed to [GitHub Pages](https://semanticdata.github.io/ximena/), and [Vercel](https://ximena-zeta.vercel.app/).
+**2. Install dependencies**
+
+```sh
+pnpm install
+```
+
+**3. Run the project locally**
+
+```sh
+pnpm start
+```
+
+## ✨ Features
+
+- Wikilinks support (`[[link|label]]`)
+- Hero homepage
+- Blog section
+- Notes section
+- Prettier config
+- Sass support
+- Syntax highlighting
+- Darkmode
+- Color theme toggle
+- HTTP headers
 
 ## 🗺 Roadmap
 
@@ -48,24 +60,33 @@ The site is deployed to [GitHub Pages](https://semanticdata.github.io/ximena/), 
 - [ ] RSS feed
 - [ ] Sitemap
 - [ ] Tags
-- [ ] PostCSS including [Autoprefixer](https://github.com/postcss/autoprefixer) and cssnano.
 - [ ] Page template (e.g. About, Journal, Now, Uses, Meta)
+- [ ] HTTP Headers (CSP, and others)
 
 ### ❓ The Maybe List
 
-- Admonition-style Callouts
-- Floating Link Previews
-- Folders/Categories
-- Graph view
-- Notes explorer
-- Recent notes
+- [ ] Admonition-style Callouts
+- [ ] Floating Link Previews
+- [ ] Folders/Categories
+- [ ] Graph view
+- [ ] Notes explorer
+- [ ] Recent notes
 
-## 💜 Acknowledgments
+## 🛠️ Technology
 
-Placeholder.
+The site uses various technologies cobbled together. Here's some of them:
+
+- [11ty](https://www.11ty.dev/)
+- [Prettier](https://github.com/prettier/prettier)
+- [Sass](https://github.com/sass/sass)
+- [TailwindCSS](https://tailwindcss.com/)
+- [daisyUI](https://daisyui.com/)
+- [PostCSS](https://postcss.org/)
+- [Autoprefixer](https://github.com/postcss/autoprefixer)
+- [cssnano](https://github.com/cssnano/cssnano)
+
+<!-- ## 💜 Acknowledgements -->
 
 ## © License
 
-© 2024 Miguel Pimentel • [MIT License](LICENSE)
-
-<!-- https://github.com/matthiasott/README-template -->
+Source code in this repository is available under the [MIT License](LICENSE).
