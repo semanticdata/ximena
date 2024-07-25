@@ -2,7 +2,7 @@
 
 ![code size](https://img.shields.io/github/languages/code-size/semanticdata/ximena) ![repository size](https://img.shields.io/github/repo-size/semanticdata/ximena) ![commits](https://img.shields.io/github/commit-activity/t/semanticdata/ximena) ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena) ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-A simple example of using [TailwindCSS](https://tailwindcss.com/), and [DaisyUI](https://daisyui.com/) with [Eleventy](https://11ty.dev/).
+A simple example of using [TailwindCSS](https://tailwindcss.com/), [DaisyUI](https://daisyui.com/) and [Eleventy](https://11ty.dev/).
 
 [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://ximena-zeta.vercel.app/) [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/ximena/)
 
